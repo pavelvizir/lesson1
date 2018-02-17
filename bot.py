@@ -19,7 +19,7 @@ def talk_to_me(bot, update):
 	update.message.reply_text(user_text[::-1])
 
 def main():
-	updater = Updater("542301182:AAE7MWQzPnu4nDeDEn_vBqqgvceBrSbRoYs")
+	updater = Updater("")
 
 	dp = updater.dispatcher
 	dp.add_handler(CommandHandler("start", greet_user))
